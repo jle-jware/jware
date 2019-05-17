@@ -1,0 +1,26 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// Fonts
+@import "~font-awesome/scss/font-awesome"; // Font Awesome
+@import "~simple-line-icons/scss/simple-line-icons"; // Simple Line Icons
+
+// CoreUI Style
+@import "../../coreui/scss/style";
+@import "~vue-multiselect/dist/vue-multiselect.min.css";
+@import '~vue-tel-input/dist/vue-tel-input.css';
+@import url("https://unpkg.com/nprogress@0.2.0/nprogress.css");
+@import "~vue-wysiwyg/dist/vueWysiwyg.css";
+// You need a specific loader for CSS files
+
+
+
+  

@@ -1,0 +1,182 @@
+// Here you can add other styles
+.app-header.navbar .navbar-brand{
+    background-size: 150px auto;
+    background-image: url("/img/logo.png");
+}
+.app-footer{
+    background-color: white!important;
+    border-top-color: white;
+}
+
+body {
+    color: black;
+    background-color: white!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-nav ul.nav > li:first-child {
+    background:#20A8D8;
+}
+.sidebar-nav ul.nav > li:nth-child(2) {
+    background: #4DBD74;
+}
+.sidebar-nav ul.nav > li:nth-child(3) {
+    background: #F86C6B;
+}
+.sidebar-nav ul.nav > li:nth-child(4) {
+    background: #F86C6B;
+}
+.sidebar-nav ul.nav > li:nth-child(5) {
+    background: #FFC107;
+}
+body {
+    color: black;
+    background-color: white!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-style{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12px;
+}
+
+// ul > li > a.active {
+//     background: inherit !important;
+//     color: rgb(255, 255, 255) !important;
+//     text-decoration-color: #ffffff;
+// }
+
+.-col-group > label {
+    color: rgb(0, 0, 0) !important;
+}
+
+ul.-col-group > li > label {
+    color: rgb(2, 2, 2) !important;
+}
+
+li.breadcrumb-item > .active {
+    color: rgb(255, 255, 255) !important;
+}
+.company-collapse {
+    .card-header .btn {
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        &:before {
+            content: "\E615";
+            font-family: 'simple-line-icons';
+            // speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-right: 10px;
+        }
+    }
+    .card-header .btn.collapsed {
+        &:before {
+            content: "\E095";
+        }
+    }
+}
+.job-collapse {
+    .card-header .btn {
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        &:before {
+            content: "\E615";
+            font-family: 'simple-line-icons';
+            // speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-right: 10px;
+        }
+    }
+    .card-header .btn.collapsed {
+        &:before {
+            content: "\E095";
+        }
+    }
+}
+.option-collapse {
+    .card-header .btn {
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        &:before {
+            content: "\E615";
+            font-family: 'simple-line-icons';
+            // speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-right: 10px;
+        }
+    }
+    .card-header .btn.collapsed {
+        &:before {
+            content: "\E095";
+        }
+    }
+}
+.machine-collapse {
+    .card-header .btn {
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        &:before {
+            content: "\E615";
+            font-family: 'simple-line-icons';
+            // speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-right: 10px;
+        }
+    }
+    .card-header .btn.collapsed {
+        &:before {
+            content: "\E095";
+        }
+    }
+}
+.export {
+    float: right;
+}
+.border-light{
+    border-color: #ffffff !important;
+}
+#signature {
+    border: double 3px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+      radial-gradient(circle at top left, #4bc5e8, #9f6274);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.fit-text{
+    width: 400px;
+    height: 0%;
+}
+.scrollme {
+    overflow-y: auto;
+}
+
+  
